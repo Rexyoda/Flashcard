@@ -1,0 +1,21 @@
+#container{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+#ja,#entry{
+	font-size:30px;
+}
+
+
+#btn{
+	font-size:30px;
+	cursor:pointer;
+}
+#result{
+	transition:0.5s;
+	opacity:1;
+}
+#result.fade{
+	opacity:0;	
+}
