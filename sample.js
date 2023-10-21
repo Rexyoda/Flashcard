@@ -12,6 +12,7 @@ let currentCard = 0;
 function updateCard() {
     flashcard.querySelector('.front').textContent = flashcardData[currentCard].word;
     flashcard.querySelector('.back').textContent = flashcardData[currentCard].meaning;
+    
 }
 
 flipButton.addEventListener("click", function () {
