@@ -12,14 +12,10 @@ let currentCard = 0;
 function updateCard() {
     flashcard.querySelector('.front').textContent = flashcardData[currentCard].word;
     flashcard.querySelector('.back').textContent = flashcardData[currentCard].meaning;
-    
 }
 
 flipButton.addEventListener("click", function () {
     flashcard.style.transform = flashcard.style.transform === "rotateY(180deg)" ? "rotateY(0deg)" : "rotateY(180deg)";
-});
-
-flipButton.addEventListener("click", function () {
     currentCard = (currentCard + 1) % flashcardData.length;
     updateCard();
 });
