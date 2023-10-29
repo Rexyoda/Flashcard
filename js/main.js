@@ -1,16 +1,16 @@
 'use strict';
 window.onload=()=>{
 	const animals=[
-		['ぞう','elephant'],
-		['しろくま','polarbear'],
-		['くじら','whale'],
-		['ペンギン','penguin'],
-		['ライオン','lion'],
-		['カンガルー','kangaroo'],
-		['ひと','human'],
-		['いぬ','dog'],
-		['ねこ','cat'],
-		['あり','ant'],
+		['稼ぐ','earn'],
+		['運賃','fare'],
+		['正式な','formal'],
+		['合う','suit'],
+		['心配して','worried'],
+		['気付いて','aware'],
+		['残額','balance'],
+		['中身','content'],
+		['持ち上げる','lift'],
+		['行事','occasion'],
 	];
 
 	const ja =document.getElementById('ja');
